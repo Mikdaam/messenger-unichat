@@ -7,6 +7,7 @@ import { useAuth } from '../contexts/AuthContext';
 import axios from 'axios';
 
 const Chats = () => {
+    // A commenter obligatoirement 😡😡😡😡😡
     const history = useHistory();
     const { user } = useAuth();
     const [loading, setLoading] = useState(true);
